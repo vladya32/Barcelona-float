@@ -83,6 +83,7 @@ p {
 
 .large-heading {
     font-size: 40px;
+    line-height: 1.2;
 }
 
 .navbar {
@@ -136,13 +137,13 @@ p {
 }
 
 .showcase-content p {
-    color: black;
+    color: white;
     padding-bottom: 20px;
     line-height: 1.7em;
 }
 
 .home-info {
-    height: 400px;
+    height: 450px;
 }
 
 .home-info .info-img {
@@ -155,6 +156,7 @@ p {
 .home-info .info-content {
     float: right;
     width: 50%;
+    height: 100%;
     text-align: center;
     padding: 50px 30px;
     overflow: hidden;
@@ -168,7 +170,7 @@ p {
     float: left;
     width: 33.3%;
     padding: 50px;
-    text-align: center;
+    text-align: center; 
 }
 
 .box i {
@@ -195,7 +197,7 @@ p {
 }
 
 .testimonials {
-    height: 600px;
+    height: 100%;
     background: url('../image/test-bg.jpeg') no-repeat center center/cover;
     padding-top: 100px;
 }
